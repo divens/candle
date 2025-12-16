@@ -1,4 +1,10 @@
 # candle
+------------------------
+## Fork of https://github.com/huggingface/candle
+- Modify `ug` dependency : from official repo (https://github.com/LaurentMazare/ug) to divens fork (https://github.com/divens/ug) (to get updated cudarc dependency)
+- Exclude wasm examples because of binary name collision issue when compiling
+------------------------
+## Original README
 [![discord server](https://dcbadge.limes.pink/api/server/hugging-face-879548962464493619)](https://discord.gg/hugging-face-879548962464493619)
 [![Latest version](https://img.shields.io/crates/v/candle-core.svg)](https://crates.io/crates/candle-core)
 [![Documentation](https://docs.rs/candle-core/badge.svg)](https://docs.rs/candle-core)
